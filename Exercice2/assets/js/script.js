@@ -1,3 +1,8 @@
+let pic = document.getElementById('picture');
 function scalePic(){
-    document.getElementById('picture').width = 600;
+    if(pic.width < 550){
+        pic.width = 600;
+    }else{
+        pic.width = 500
+    }
 }
