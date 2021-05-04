@@ -126,15 +126,10 @@ h2 {
     flex-wrap: wrap;
     transition: .6s;
 }
-/* js test ---------------------- */
-/* .visible {
-    opacity: 1;
-} */
 .hide {
-    opacity: 0;
+    visibility: hidden;
+    transition: visibility 1s;
 }
-
-
 .blocks {
     display: flex;
     justify-content: center;
